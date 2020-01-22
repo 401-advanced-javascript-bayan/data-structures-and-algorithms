@@ -1,9 +1,4 @@
 'use strict';
-const reverseArray = (arr) => {
-    let newArr = [];
-    for (let i = 0; i < arr.length; i++) {
-        newArr[arr.length - i - 1] = arr[i];
+function BinarySearch(arr,value){
+    let oper = Math.floor(arr.length / 2);
     }
-    console.log(newArr);
-    return newArr;
-}
