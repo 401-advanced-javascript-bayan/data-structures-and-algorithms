@@ -8,7 +8,8 @@
 // }
 
 
- 
+ ///////////////// fibonacc  function ////////////////
+
 function FibonacciSequence(integer) {
     let result = 0;
     let num1 = 0;
@@ -27,4 +28,19 @@ function FibonacciSequence(integer) {
     }
     return num1;
 }
-console.log (FibonacciSequence);
+// console.log (FibonacciSequence);
+
+///////////////////////sumtion function //////////////////
+
+function sumtionMatrix(arr){     // metrix - inested array 
+ let  finalValue =[]
+    for(let i=0;i<arr.length;i++){
+        let sum= 0;  
+            for(let j=0;j<arr[i].length;j++){
+            sum = sum + arr[i][j]
+        }
+       finalValue[i] = sum ;  // this value it will be an item inside the array
+    }
+    return finalValue
+}
+//console.log(sumtionMatrix)
