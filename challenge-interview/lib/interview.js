@@ -8,9 +8,9 @@
 // }
 
 
- ///////////////// fibonacc  function ////////////////
+ ///////////////// fibonacc  function //////////////////////
 
-function FibonacciSequence(integer) {
+function FibonacciSequence(integer) { ///fibonacci sequence 0,1,1,2,3,5,...
     let result = 0;
     let num1 = 0;
     let num2 = 1;
