@@ -6,7 +6,7 @@ Challenge Summary && Challenge Description
   the secand one we  do Fibonacci Sequence of any input
 
 Approach & Efficiency
-the jest is not install I have issues in npm install
+ I have issues in npm install and jest
 
 Solution
 function 1 (sumation)
@@ -22,4 +22,4 @@ write function have one parameter of integer value
 daclaring the first two values
 declaring the counter that will do Fibonacci
 do while loop
-do the mathmatical equation for Fibonacci thrn return the value
+do the  equation for Fibonacci then return the value
