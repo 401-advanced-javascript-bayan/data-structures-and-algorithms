@@ -11,5 +11,5 @@ a function which takes in an array and the value to be added then return an arra
 
 
 uml
-(https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/pull/3)
-![](
+(https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/pull/3)                
+![](https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/blob/array-shift/challenge-array-shift/image/IMG_20200125_001206.jpg)
