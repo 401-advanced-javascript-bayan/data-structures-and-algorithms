@@ -1,7 +1,7 @@
 'use strict';
-const  challenge = require('./index.js');
+const  challenge = require('../lib/interview.js');
 
-describe('Functions of the two interviews', () => {
+describe('the first function in interview', () => {
     describe('this will test sumtion metrix', () => {
 
         it('Test the internal arrys in the main array', () => {
@@ -11,7 +11,7 @@ describe('Functions of the two interviews', () => {
     })
 })
 
-describe('Fibonacci Sequence Test', () => {
+describe('the second function in interview', () => {
     it('it will  return the exact element of  given index based on fibonacci sequence', () => {
         expect(challenge.FibonacciSequence(6)).toEqual(8)
     })
