@@ -1,6 +1,5 @@
 'use strict';
 
-const Node = require('../challenge/node.js');
 
 class LinkedList {
     constructor() {
@@ -10,10 +9,10 @@ class LinkedList {
 
         /////////////////////// create new node /////////////////////////
     insert(value) {
-        let node = new Node(value);
+        let  node = new Node(value);
         if (!this.head) {
             this.head = node;
-            this.length++
+            // this.length++
              
             return  this;
         }else{
@@ -29,7 +28,7 @@ class LinkedList {
                return this;
       }
     }
-     /////////// check on the list ///////////
+     ///////////////////////////////// check on the list //////////////////////
     
     includes(value) {
         
@@ -45,12 +44,14 @@ class LinkedList {
         }
         
     }  
-    
-
-   
 }
+   
+// ///////////////////////////////////////////////////////// to be string
 
 
 
-module.exports=  LinkedList 
+
+
+
+module.exports= LinkedList
    
