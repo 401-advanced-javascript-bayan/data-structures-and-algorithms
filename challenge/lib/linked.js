@@ -6,7 +6,7 @@ class LinkedList {
   constructor() {
     this.head = null;   /// in first case if there is nothing its null
   }
- /////////// create node///////////////
+ /////////// create node////////////////
   insert(value) {
     let node = new Node(value);
 
