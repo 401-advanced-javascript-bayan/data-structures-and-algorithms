@@ -12,7 +12,7 @@ class LinkedList {
 
 
 
-    if (!this.head) {            //
+    if (!this.head) {            
       this.head = node;
     }
     
