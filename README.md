@@ -15,5 +15,5 @@ i used while loop to pass over the items in the array
 ## Solution
 <!-- Embedded whiteboard image -->
 ![](https://files.slack.com/files-pri/TNGRRLUMA-FSM2GQ3CH/img_20200121_162402.jpg)
-[ci]()
+[ci](https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/actions)
 [pull-request]()
