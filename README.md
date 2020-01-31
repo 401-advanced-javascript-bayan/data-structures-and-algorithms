@@ -15,4 +15,4 @@ links:
 pull-req(https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/pull/9)
 [ci](https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/actions)
 uml
-![]()
+![](https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/tree/code4/image)
