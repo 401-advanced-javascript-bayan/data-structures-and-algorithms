@@ -1,15 +1,19 @@
 # data-structures-and-algorithms
-code challenge 4 - Interviews
+code challenge 6- ll-insertion
 
 Challenge Summary 
 
-we write two function the first one we have array of arrays we need to do the sumation of inner arr the secand one we do Fibonacci Sequence of any input
+Singly Linked List
+create a linked list then create a method that do what supposed to do then test it .
 
-Approach & Efficiency I have issues in npm install and jest
-
-Solution function 1 (sumation) write function call sumationmatrixe have input of arr of arrays looping through the outerarr and inner arr do the sumation push it in empty array
-
-function 2 (Fibonaccisequence) write function have one parameter of integer value daclaring the first two values declaring the counter that will do Fibonacci do while loop do the equation for Fibonacci then return the value
+Challenge
+append(value) which adds a new node with the given value to the end of the list
+insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+Approach & Efficiency
+append(value) Big O o(n)
+insertBefore(value, newVal) Big O o(n-1)
+insertAfter(value, newVal) Big O o(n)
 
 links:
 pull-req(https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/pull/9)
