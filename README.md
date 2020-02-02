@@ -17,6 +17,6 @@ insertAfter(value, newVal) Big O o(n)
 
 links:
 pull-req(https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/pull/9)
-[ci](https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/actions)
+[ci](https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/runs/422078781?check_suite_focus=true)
 uml
 ![]()
