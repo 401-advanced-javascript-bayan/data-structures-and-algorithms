@@ -1,61 +1,46 @@
 'use strict' ;
 
+const LinkedList = require('../lib/ll-kth-from-end.js');
 
-const LinkedList = require('../lib/ll-kth-from-end.js').default;
+describe(' LinkedList Module ', () => {
+  let testLL = new LinkedList();
+  it(' LinkedList Constructor ', () => {
+    expect(testLL.head).toEqual(null);
+  });
 
-let ll = new LinkedList();
-describe('Linked List', () => {
+  it(' Insert() new node with value ', () => {
+    let value = 'lenna';
+    testLL.insert(value);
+    expect(testLL.head.value).toEqual(value);
+    expect(typeof (testLL.head.next)).toEqual('object');
+  });
 
-    beforeEach(() => {
-        ll = new LinkedList();
-    });
-    
-    it('tests where k is greater than the length of the linked list ', () => {
-        ll.insert(1); 
-        ll.insert(2);
-        ll.insert(3);
-        ll.insert(4);
-        ll.insert(5); 
+  it(' Includes() node\'s value if exist ', () => {
+    let value = 'lenna';
+    testLL.includes(value);
+    expect(testLL.head.value).toEqual(value);
+  });
 
-        expect(ll.kthFromEnd(7)).toMatch("exception")
-    });
+ 
+  it(' append() add new node at the end of the list ', () => {
+    let value = 'lenna';
+    testLL.insert(value);
+    expect(testLL.head.value).toEqual('lenna');
+    expect(testLL.head.value).toEqual(value);
+  });
 
-    it('tests where k and the length of the list are the same', () => {
-        ll.insert('a');
-        ll.insert('b');
-        ll.insert('c');
-        ll.insert('d');
-        ll.insert('f'); 
+  
+  it('llkthFromEnd(k) return k negative number since K < 0  ', () => {
+    // head -> [1] -> [3] -> [8] -> [2] -> X  k=0  output=2
+    let testLL = new LinkedList();
+    testLL.insert('10');
+    testLL.insert('30');
+    testLL.insert('50');
+    testLL.insert('70');
+    expect(testLL.llkthFromEnd(-1)).toEqual('K negative Number');
+  });
 
-        expect(ll.kthFromEnd(5)).toMatch("exception")
-    });
-
-    it('tests where k is not a positive integer ', () => {
-        ll.insert('ss');
-        ll.insert('dd');
-        ll.insert('ff');
-        ll.insert('gg');
-        ll.insert('rr'); 
-
-        expect(ll.kthFromEnd(-3)).toMatch("exception")
-    })
-
-    it('tests where the linked list is of a size 1', () => {
-        ll.insert('rr'); 
-
-        expect(ll.kthFromEnd(1)).toMatch("exception")
-    });
-
-    it('tests where k is not at the end, but somewhere in the middle of the linked list', () => {
-        ll.insert('ss');
-        ll.insert('dd');
-        ll.insert('ff');
-        ll.insert('gg');
-        ll.insert('rr'); 
-
-        expect(ll.kthFromEnd(2)).toMatch("ff")
-    })
+  
 
 
-
-})
+}); 
