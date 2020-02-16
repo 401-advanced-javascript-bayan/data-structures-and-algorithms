@@ -20,4 +20,4 @@ API
 ###contains() Returns true if the tree contains the value, or false if not
 
 Solution
-![]()
+![](https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/blob/code15/image/IMG_20200216_235833.jpg)
