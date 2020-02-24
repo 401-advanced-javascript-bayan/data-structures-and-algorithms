@@ -1,5 +1,7 @@
+/* eslint-disable semi */
+/* eslint-disable indent */
 'use strict';
-function InsertionSort(arr){
+function insertionSort(arr){
     for(let i=1 ; i<arr.length; i++){
       let j = i - 1
       let temp = arr[i]
@@ -11,6 +13,6 @@ function InsertionSort(arr){
     }
       return arr;
  }
- InsertionSort([8,4,23,42,16,15])
+ insertionSort([8,4,23,42,16,15])
 
-
+ module.exports = insertionSort ;
