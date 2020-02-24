@@ -9,4 +9,4 @@ i build insertionSort() function that take an array as input and sort it using i
 Big O notation
 Going through the array once with the first for loop then using while loop inside will increase the complexity to O(n^2).
 WhiteBoard
-![]()
+![](https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/blob/code26/image/IMG_20200224_220749.jpg)
