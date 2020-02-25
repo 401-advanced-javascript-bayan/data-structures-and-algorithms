@@ -10,4 +10,4 @@ Return the tree with its new values.
 Approach & Efficiency
 My approach was to follow a preOrder traversal of the tree. On each node, the value of the node was examined to determine if it was divisible by 3, 5, or both. If it was, the data was modified in-place with the appropriate word. If it was not, the traversal continued recursively on the left and right branches of the node. Edge cases were handled separately. Once the tree had been traversed completely, it was returned.
 This solution has a Big O notation efficiency of O(n) for time and O(h) for space, where h is the tree's height.
-![]()
+![](https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/blob/code16/image/IMG_20200225_065545.jpg)
