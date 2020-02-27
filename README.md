@@ -9,3 +9,4 @@ breadth-first() : traverse the input tree using a Breadth-first approach, and re
 Big O => O(n)
 
 White-Board
+![](https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/blob/code17/image/IMG_20200227_224406.jpg)
