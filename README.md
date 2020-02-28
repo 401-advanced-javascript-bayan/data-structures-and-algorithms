@@ -11,4 +11,4 @@ If the maximum value (found in step 2) is greater than the global max variable, 
 
 Return the maximum of the first three cases.
 UML
-![]()
+![](https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/blob/code18/image/IMG_20200228_233244.jpg)
