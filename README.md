@@ -8,4 +8,4 @@ To implement this approach I used a quickSort method to handle defining the vari
 (big o):
  o(nlogo) cuz we have hat for each thing you have to do extra work proportional to the number of digits in the count describing what it is you are looking at. Not a lot, because typically the number of digits in a number is way smaller than the value  
 uml
-![]()
+![](https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/blob/code28/image/1_Wb7sjviC18Hj5yRS6CdqKw.jpeg)
