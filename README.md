@@ -16,4 +16,4 @@ get is O(n)
 contains is O(n)
 print is O(1)
 UML
-![]()
+![](https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/blob/code30/image/500px-Hash_table_5_0_1_1_1_1_0_LL.svg.png)
