@@ -10,4 +10,4 @@ This function takes in a string of any length. It then puts the words into an ar
 big (0)= o(n)
 space o(n)
 UML
-![]()
+![](https://github.com/401-advanced-javascript-bayan/data-structures-and-algorithms/blob/code31/image/IMG_20200311_225153.jpg)
